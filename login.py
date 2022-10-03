@@ -1,4 +1,3 @@
-from email import header
 import requests
 from user_agent import generate_user_agent
 url = 'https://aminoapps.com/api/auth'
