@@ -12,7 +12,7 @@ $sid = $_POST['sid'];
 $ndcId = $_POST['ndcId'];
 $threadId = $_POST['threadId'];
 $ch = curl_init(); 
-curl_setopt($ch, CURLOPT_URL, "https://aminoapps.com/api/join-thread"); 
+curl_setopt($ch, CURLOPT_URL, "https://aminoapps.com/api/leave-thread"); 
 curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false); 
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
